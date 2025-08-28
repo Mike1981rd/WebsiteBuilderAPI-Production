@@ -17,9 +17,13 @@ WORKDIR /app
 # Copy published output
 COPY --from=build /app .
 
-# Railway provides PORT environment variable
-ENV ASPNETCORE_URLS=http://+:${PORT:-80}
-EXPOSE ${PORT:-80}
+# Railway provides PORT environment variable at runtime
+# We use a shell script to handle the dynamic PORT
+EXPOSE 80
 
-# Start the application
-ENTRYPOINT ["dotnet", "WebsiteBuilderAPI.dll"]
+# Create a startup script
+RUN echo '#!/bin/sh\nexport ASPNETCORE_URLS="http://+:${PORT:-80}"\nexec dotnet WebsiteBuilderAPI.dll' > /app/start.sh && \
+    chmod +x /app/start.sh
+
+# Start the application using the script
+ENTRYPOINT ["/app/start.sh"]
