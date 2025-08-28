@@ -351,7 +351,7 @@ namespace WebsiteBuilderAPI.Services
                     from: $"whatsapp:{config.WhatsAppPhoneNumber}",
                     to: $"whatsapp:{await FormatPhoneNumberAsync(dto.To)}",
                     body: dto.Body,
-                    mediaUrl: !string.IsNullOrEmpty(dto.MediaUrl) ? [new Uri(dto.MediaUrl)] : null
+                    mediaUrl: !string.IsNullOrEmpty(dto.MediaUrl) ? new List<Uri> { new Uri(dto.MediaUrl) } : null
                 );
 
                 var whatsAppMessage = new WhatsAppMessage

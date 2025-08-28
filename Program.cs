@@ -322,7 +322,7 @@ try
         }
     }
 
-    Log.Information("🎯 WebsiteBuilder API started successfully on {Urls}", string.Join(", ", builder.WebHost.GetSetting("urls")?.Split(';') ?? ["http://localhost:5000"]));
+    Log.Information("🎯 WebsiteBuilder API started successfully on {Urls}", string.Join(", ", builder.WebHost.GetSetting("urls")?.Split(';') ?? new string[] { "http://localhost:5000" }));
     
     app.Run();
 }
