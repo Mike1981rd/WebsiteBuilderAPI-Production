@@ -8,17 +8,18 @@ RUN dotnet restore
 
 # Copy everything else and build
 COPY . ./
-RUN dotnet publish -c Release -o /app/out
+RUN dotnet publish -c Release -o /app
 
 # Use the official ASP.NET Core runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 
 # Copy published output
-COPY --from=build /app/out .
+COPY --from=build /app .
 
-# Expose port (Railway will override with $PORT)
-EXPOSE 80
+# Railway provides PORT environment variable
+ENV ASPNETCORE_URLS=http://+:${PORT:-80}
+EXPOSE ${PORT:-80}
 
 # Start the application
 ENTRYPOINT ["dotnet", "WebsiteBuilderAPI.dll"]
