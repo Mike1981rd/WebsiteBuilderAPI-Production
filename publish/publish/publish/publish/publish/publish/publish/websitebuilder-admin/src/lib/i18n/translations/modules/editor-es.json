@@ -1,0 +1,92 @@
+{
+  "editor": {
+    "title": "Editor de Sitio Web",
+    "subtitle": "Diseña y personaliza tu sitio web",
+    "pageTypes": {
+      "home": "Página de inicio",
+      "product": "Página de producto",
+      "cart": "Carrito",
+      "checkout": "Finalizar compra",
+      "collection": "Colección",
+      "allCollections": "Todas las colecciones",
+      "allProducts": "Todos los productos",
+      "custom": "Habitaciones"
+    },
+    "actions": {
+      "save": "Guardar",
+      "saveDraft": "Guardar Borrador",
+      "publish": "Publicar",
+      "preview": "Vista Previa",
+      "undo": "Deshacer",
+      "redo": "Rehacer",
+      "cancel": "Cancelar",
+      "delete": "Eliminar",
+      "duplicate": "Duplicar",
+      "exit": "Salir del Editor"
+    },
+    "panels": {
+      "sections": "Secciones",
+      "pages": "Páginas",
+      "globalSettings": "Configuración Global",
+      "theme": "Tema",
+      "design": "Diseño",
+      "content": "Contenido"
+    },
+    "toolbar": {
+      "desktop": "Escritorio",
+      "tablet": "Tablet",
+      "mobile": "Móvil",
+      "fullscreen": "Pantalla Completa",
+      "exitFullscreen": "Salir de Pantalla Completa",
+      "gridView": "Vista de Cuadrícula",
+      "listView": "Vista de Lista"
+    },
+    "sidebar": {
+      "addSection": "Agregar Sección",
+      "searchSections": "Buscar secciones...",
+      "categories": {
+        "all": "Todas",
+        "basic": "Básicas",
+        "content": "Contenido",
+        "media": "Multimedia",
+        "commerce": "Comercio",
+        "contact": "Contacto",
+        "social": "Social"
+      }
+    },
+    "messages": {
+      "unsavedChanges": "Tienes cambios sin guardar",
+      "saveConfirm": "¿Deseas guardar los cambios antes de salir?",
+      "publishSuccess": "Sitio publicado exitosamente",
+      "publishError": "Error al publicar el sitio",
+      "saveSuccess": "Cambios guardados",
+      "saveError": "Error al guardar los cambios",
+      "deleteConfirm": "¿Estás seguro de eliminar esta sección?",
+      "loading": "Cargando editor...",
+      "loadError": "Error al cargar el editor",
+      "saving": "Guardando..."
+    },
+    "settings": {
+      "pageSettings": "Configuración de Página",
+      "sectionSettings": "Configuración de Sección",
+      "visibility": "Visibilidad",
+      "showOnDesktop": "Mostrar en Escritorio",
+      "showOnMobile": "Mostrar en Móvil",
+      "advanced": "Avanzado",
+      "customCSS": "CSS Personalizado",
+      "customClass": "Clase CSS",
+      "animation": "Animación",
+      "padding": "Espaciado",
+      "margin": "Margen",
+      "background": "Fondo"
+    },
+    "dragDrop": {
+      "dragToReorder": "Arrastra para reordenar",
+      "dropHere": "Suelta aquí",
+      "moveUp": "Mover arriba",
+      "moveDown": "Mover abajo",
+      "moveToTop": "Mover al inicio",
+      "moveToBottom": "Mover al final"
+    }
+  }
+}

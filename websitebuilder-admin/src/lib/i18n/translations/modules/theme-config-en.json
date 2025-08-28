@@ -1,0 +1,201 @@
+{
+  "themeConfig": {
+    "appearance": {
+      "title": "Appearance",
+      "pageWidth": "Page Width",
+      "contentPadding": "Content Padding",
+      "borderRadius": "Border Radius",
+      "borderRadiusOptions": {
+        "none": "None",
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large",
+        "extraLarge": "Extra Large"
+      }
+    },
+    "typography": {
+      "title": "Typography",
+      "headings": "Headings",
+      "body": "Body",
+      "menu": "Menu",
+      "productCardName": "Product Card Name",
+      "buttons": "Buttons",
+      "fontFamily": "Font Family",
+      "fontSize": "Font Size",
+      "fontWeight": "Font Weight",
+      "lineHeight": "Line Height",
+      "letterSpacing": "Letter Spacing"
+    },
+    "colorSchemes": {
+      "title": "Color Schemes",
+      "scheme": "Scheme",
+      "primary": "Primary",
+      "secondary": "Secondary",
+      "text": "Text",
+      "background": "Background",
+      "foreground": "Foreground",
+      "border": "Border",
+      "link": "Link",
+      "solidButton": "Solid Button",
+      "solidButtonText": "Solid Button Text",
+      "outlineButton": "Outline Button",
+      "outlineButtonText": "Outline Button Text",
+      "imageOverlay": "Image Overlay"
+    },
+    "productCards": {
+      "title": "Product Cards",
+      "imageRatio": "Image Ratio",
+      "showSecondImage": "Show Second Image on Hover",
+      "showRating": "Show Rating",
+      "showPrice": "Show Price",
+      "showComparePrice": "Show Compare Price",
+      "showVendor": "Show Vendor",
+      "showQuickView": "Show Quick View",
+      "showAddToCart": "Show Add to Cart",
+      "textAlignment": "Text Alignment"
+    },
+    "productBadges": {
+      "title": "Product Badges",
+      "sale": "Sale",
+      "soldOut": "Sold Out",
+      "new": "New",
+      "comingSoon": "Coming Soon",
+      "limitedEdition": "Limited Edition",
+      "exclusive": "Exclusive",
+      "custom": "Custom",
+      "enabled": "Enabled",
+      "label": "Label",
+      "backgroundColor": "Background Color",
+      "textColor": "Text Color",
+      "position": "Position",
+      "shape": "Shape"
+    },
+    "navigation": {
+      "title": "Navigation",
+      "search": {
+        "title": "Search",
+        "showAs": "Show as",
+        "enabled": "Enable Search",
+        "placeholder": "Placeholder",
+        "showSuggestions": "Show Suggestions",
+        "showPopular": "Show Popular Searches",
+        "options": {
+          "drawer-and-page": "Drawer and page",
+          "drawer-only": "Drawer only",
+          "page-only": "Page only",
+          "none": "None"
+        }
+      },
+      "backToTop": {
+        "title": "Back-to-top",
+        "showButton": "Show back-to-top button",
+        "position": "Button position",
+        "enabled": "Enable Back to Top Button",
+        "showAfter": "Show After (px)",
+        "style": "Style",
+        "positions": {
+          "bottom-left": "Bottom left",
+          "bottom-center": "Bottom center",
+          "bottom-right": "Bottom right"
+        },
+        "mobileInfo": "Always \"Bottom left\" on mobile"
+      }
+    },
+    "socialMedia": {
+      "title": "Social Media",
+      "subtitle": "Links to social profiles you add here will appear on your online store.",
+      "platforms": "Platforms",
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "youtube": "YouTube",
+      "shopify": "Shopify",
+      "pinterest": "Pinterest",
+      "tiktok": "TikTok",
+      "tumblr": "Tumblr",
+      "snapchat": "Snapchat",
+      "linkedin": "LinkedIn",
+      "vimeo": "Vimeo",
+      "flickr": "Flickr",
+      "reddit": "Reddit",
+      "email": "Email",
+      "behance": "Behance",
+      "discord": "Discord",
+      "dublhub": "Dublhub",
+      "medium": "Medium",
+      "twitch": "Twitch",
+      "whatsapp": "WhatsApp",
+      "viber": "Viber",
+      "telegram": "Telegram",
+      "showInHeader": "Show in Header",
+      "showInFooter": "Show in Footer"
+    },
+    "favicon": {
+      "title": "Favicon image",
+      "upload": "Upload Favicon",
+      "preview": "Preview",
+      "recommended": "Recommended: 32x32px, .ico or .png format",
+      "useCustom": "Use custom favicon",
+      "selectFile": "Select",
+      "uploading": "Uploading...",
+      "urlLabel": "Or enter URL directly",
+      "exploreFree": "Explore free images",
+      "sizeInfo": "Will be scaled down to 32 x 32px",
+      "unsupportedFormat": "Unsupported format. Please use ICO, PNG, SVG, JPG or JPEG",
+      "fileTooLarge": "File too large. Maximum size is 500KB",
+      "uploadSuccess": "Favicon uploaded successfully",
+      "uploadError": "Failed to upload favicon",
+      "invalidUrl": "Please enter a valid favicon URL or upload a file"
+    },
+    "swatches": {
+      "title": "Variant Swatches",
+      "colorSwatches": "Color Swatches",
+      "sizeSwatches": "Size Swatches",
+      "materialSwatches": "Material Swatches",
+      "shape": "Shape",
+      "size": "Size",
+      "borderWidth": "Border Width",
+      "borderColor": "Border Color",
+      "showTooltip": "Show Tooltip"
+    },
+    "cart": {
+      "title": "Cart",
+      "showAs": "Show as",
+      "learnAbout": "Learn about",
+      "cartView": "cart view",
+      "drawerTypes": {
+        "drawer-and-page": "Drawer and page",
+        "drawer-only": "Drawer only",
+        "page-only": "Page only"
+      },
+      "showStickyCart": "Show sticky cart",
+      "cartStatusColors": "Cart status colors",
+      "background": "Background",
+      "text": "Text",
+      "freeShippingBar": "Free shipping bar",
+      "showProgressBar": "Show progress bar",
+      "freeShippingGoal": "Free shipping goal",
+      "freeShippingNote": "Fill in the value in your store's main currency. Set up your ",
+      "shippingRate": "shipping rate",
+      "orAutomatic": " or ",
+      "automaticFreeShipping": "automatic free shipping discount",
+      "toMatchGoal": " to match the goal.",
+      "progressBar": "Progress bar",
+      "progressBarGradient": "Progress bar gradient",
+      "degraded": "Degraded...",
+      "message": "Message",
+      "display": "Display As",
+      "drawer": "Drawer",
+      "page": "Page",
+      "showNotes": "Show Order Notes",
+      "showShipping": "Show Shipping Calculator",
+      "showTaxes": "Show Taxes",
+      "showDiscounts": "Show Discounts",
+      "freeShipping": {
+        "enabled": "Enable Free Shipping",
+        "threshold": "Threshold",
+        "message": "Message"
+      }
+    }
+  }
+}

@@ -1,0 +1,167 @@
+================================================================================
+[2025-08-27T04:41:43.890Z] [INFO] [CONSOLE]
+URL: https://websitebuilder-admin.vercel.app/login
+Message: Frontend logger initialized
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+
+================================================================================
+[2025-08-27T04:41:57.388Z] [INFO] [CONSOLE]
+URL: https://websitebuilder-admin.vercel.app/dashboard/whatsapp-settings
+Message: Frontend logger initialized
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+
+================================================================================
+[2025-08-27T04:56:54.276Z] [ERROR] [CONSOLE]
+URL: https://websitebuilder-admin.vercel.app/dashboard/whatsapp
+Message: WhatsApp API Error: {
+  "message": "Network Error",
+  "name": "AxiosError",
+  "stack": "AxiosError: Network Error\n    at y.onerror (https://websitebuilder-admin.vercel.app/_next/static/chunks/3464-ee893cbc26f7ef9c.js:1:46591)\n    at eh.request (https://websitebuilder-admin.vercel.app/_next/static/chunks/3464-ee893cbc26f7ef9c.js:1:54213)\n    at async https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:26125\n    at async https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:29782",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIxIiwiZW1haWwiOiJhZG1pbkB3ZWJzaXRlYnVpbGRlci5jb20iLCJ1bmlxdWVfbmFtZSI6IlN1cGVyIEFkbWluIiwiQ29tcGFueUlkIjoiMSIsImNvbXBhbnlJZCI6IjEiLCJyb2xlIjpbIlN1cGVyQWRtaW4iLCJTdXBlckFkbWluIl0sInBlcm1pc3Npb25zIjpbInN5c3RlbS5hZG1pbiIsInJlc2VydmF0aW9ucy5jcmVhdGUiLCJjbGllbnRzLndyaXRlIiwicGFnZXMucmVhZCIsImxvY2F0aW9ucy5yZWFkIiwibm90aWZpY2F0aW9ucy5yZWFkIiwiY29tcGFueS5yZWFkIiwic2hpcHBpbmcud3JpdGUiLCJzZXR0aW5ncy5tYW5hZ2UiLCJkYXNoYm9hcmQuY3JlYXRlIiwibG9ncy52aWV3IiwiZG9tYWlucy5yZWFkIiwibmF2aWdhdGlvbi5yZWFkIiwicGFnZXMuY3JlYXRlIiwiY29sbGVjdGlvbnMuY3JlYXRlIiwibG9jYXRpb25zLndyaXRlIiwiZGFzaGJvYXJkLnJlYWQiLCJyb29tcy5jcmVhdGUiLCJ3ZWJzaXRlLndyaXRlIiwicGF5bWVudHMucmVhZCIsIm5hdmlnYXRpb24uY3JlYXRlIiwidXNlcnMud3JpdGUiLCJjb21wYW55LndyaXRlIiwicGF5bWVudHMuY3JlYXRlIiwicmVwb3J0cy52aWV3Iiwid2Vic2l0ZS5yZWFkIiwiY2hlY2tvdXQucmVhZCIsIm9yZGVycy5jcmVhdGUiLCJiYWNrdXAuY3JlYXRlIiwiY29sbGVjdGlvbnMud3JpdGUiLCJ1c2Vycy5jcmVhdGUiLCJyb29tcy5yZWFkIiwiY2xpZW50cy5jcmVhdGUiLCJ1c2Vycy5yZWFkIiwiY2FjaGUuY2xlYXIiLCJjaGVja291dC5jcmVhdGUiLCJwcm9kdWN0cy5jcmVhdGUiLCJkb21haW5zLmNyZWF0ZSIsIndoYXRzYXBwLndyaXRlIiwicmVwb3J0cy5leHBvcnQiLCJub3RpZmljYXRpb25zLmNyZWF0ZSIsInBvbGljaWVzLndyaXRlIiwid2Vic2l0ZS5jcmVhdGUiLCJwb2xpY2llcy5yZWFkIiwicm9vbXMud3JpdGUiLCJzdWJzY3JpYmVycy5jcmVhdGUiLCJyZXNlcnZhdGlvbnMucmVhZCIsInByb2R1Y3RzLndyaXRlIiwid2hhdHNhcHAucmVhZCIsImNsaWVudHMucmVhZCIsImNvbXBhbnkuY3JlYXRlIiwicGFnZXMud3JpdGUiLCJvcmRlcnMud3JpdGUiLCJjaGVja291dC53cml0ZSIsInJlc2VydmF0aW9ucy53cml0ZSIsInN1YnNjcmliZXJzLndyaXRlIiwiZGFzaGJvYXJkLndyaXRlIiwibG9jYXRpb25zLmNyZWF0ZSIsInBvbGljaWVzLmNyZWF0ZSIsIndoYXRzYXBwLmNyZWF0ZSIsImJhY2t1cC5yZXN0b3JlIiwic2hpcHBpbmcucmVhZCIsImRvbWFpbnMud3JpdGUiLCJwYXltZW50cy53cml0ZSIsInByb2R1Y3RzLnJlYWQiLCJzdWJzY3JpYmVycy5yZWFkIiwib3JkZXJzLnJlYWQiLCJzaGlwcGluZy5jcmVhdGUiLCJuYXZpZ2F0aW9uLndyaXRlIiwibm90aWZpY2F0aW9ucy53cml0ZSIsImNvbGxlY3Rpb25zLnJlYWQiXSwibmJmIjoxNzU2MjY5Nzc4LCJleHAiOjE3NTY4NzQ1NzgsImlhdCI6MTc1NjI2OTc3OCwiaXNzIjoiV2Vic2l0ZUJ1aWxkZXJBUEkiLCJhdWQiOiJXZWJzaXRlQnVpbGRlckNsaWVudCJ9.abNMJ6HqbNs1Q5Q1IJUvjrESAjsYuqYeeiR7e0705dw"
+    },
+    "baseURL": "https://api.test1hotelwebsite.online/api",
+    "withCredentials": false,
+    "method": "get",
+    "url": "/whatsapp/conversations?",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_NETWORK"
+}
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Stack Trace:
+Error
+    at console.error (https://websitebuilder-admin.vercel.app/_next/static/chunks/app/layout-c43f4578dc4271c9.js:1:4352)
+    at console.error (https://websitebuilder-admin.vercel.app/_next/static/chunks/app/layout-c43f4578dc4271c9.js:1:2989)
+    at https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:26314
+    at async https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:29782
+Additional Details: {
+  "args": [
+    "WhatsApp API Error:",
+    {
+      "message": "Network Error",
+      "name": "AxiosError",
+      "stack": "AxiosError: Network Error\n    at y.onerror (https://websitebuilder-admin.vercel.app/_next/static/chunks/3464-ee893cbc26f7ef9c.js:1:46591)\n    at eh.request (https://websitebuilder-admin.vercel.app/_next/static/chunks/3464-ee893cbc26f7ef9c.js:1:54213)\n    at async https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:26125\n    at async https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:29782",
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "adapter": [
+          "xhr",
+          "http",
+          "fetch"
+        ],
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIxIiwiZW1haWwiOiJhZG1pbkB3ZWJzaXRlYnVpbGRlci5jb20iLCJ1bmlxdWVfbmFtZSI6IlN1cGVyIEFkbWluIiwiQ29tcGFueUlkIjoiMSIsImNvbXBhbnlJZCI6IjEiLCJyb2xlIjpbIlN1cGVyQWRtaW4iLCJTdXBlckFkbWluIl0sInBlcm1pc3Npb25zIjpbInN5c3RlbS5hZG1pbiIsInJlc2VydmF0aW9ucy5jcmVhdGUiLCJjbGllbnRzLndyaXRlIiwicGFnZXMucmVhZCIsImxvY2F0aW9ucy5yZWFkIiwibm90aWZpY2F0aW9ucy5yZWFkIiwiY29tcGFueS5yZWFkIiwic2hpcHBpbmcud3JpdGUiLCJzZXR0aW5ncy5tYW5hZ2UiLCJkYXNoYm9hcmQuY3JlYXRlIiwibG9ncy52aWV3IiwiZG9tYWlucy5yZWFkIiwibmF2aWdhdGlvbi5yZWFkIiwicGFnZXMuY3JlYXRlIiwiY29sbGVjdGlvbnMuY3JlYXRlIiwibG9jYXRpb25zLndyaXRlIiwiZGFzaGJvYXJkLnJlYWQiLCJyb29tcy5jcmVhdGUiLCJ3ZWJzaXRlLndyaXRlIiwicGF5bWVudHMucmVhZCIsIm5hdmlnYXRpb24uY3JlYXRlIiwidXNlcnMud3JpdGUiLCJjb21wYW55LndyaXRlIiwicGF5bWVudHMuY3JlYXRlIiwicmVwb3J0cy52aWV3Iiwid2Vic2l0ZS5yZWFkIiwiY2hlY2tvdXQucmVhZCIsIm9yZGVycy5jcmVhdGUiLCJiYWNrdXAuY3JlYXRlIiwiY29sbGVjdGlvbnMud3JpdGUiLCJ1c2Vycy5jcmVhdGUiLCJyb29tcy5yZWFkIiwiY2xpZW50cy5jcmVhdGUiLCJ1c2Vycy5yZWFkIiwiY2FjaGUuY2xlYXIiLCJjaGVja291dC5jcmVhdGUiLCJwcm9kdWN0cy5jcmVhdGUiLCJkb21haW5zLmNyZWF0ZSIsIndoYXRzYXBwLndyaXRlIiwicmVwb3J0cy5leHBvcnQiLCJub3RpZmljYXRpb25zLmNyZWF0ZSIsInBvbGljaWVzLndyaXRlIiwid2Vic2l0ZS5jcmVhdGUiLCJwb2xpY2llcy5yZWFkIiwicm9vbXMud3JpdGUiLCJzdWJzY3JpYmVycy5jcmVhdGUiLCJyZXNlcnZhdGlvbnMucmVhZCIsInByb2R1Y3RzLndyaXRlIiwid2hhdHNhcHAucmVhZCIsImNsaWVudHMucmVhZCIsImNvbXBhbnkuY3JlYXRlIiwicGFnZXMud3JpdGUiLCJvcmRlcnMud3JpdGUiLCJjaGVja291dC53cml0ZSIsInJlc2VydmF0aW9ucy53cml0ZSIsInN1YnNjcmliZXJzLndyaXRlIiwiZGFzaGJvYXJkLndyaXRlIiwibG9jYXRpb25zLmNyZWF0ZSIsInBvbGljaWVzLmNyZWF0ZSIsIndoYXRzYXBwLmNyZWF0ZSIsImJhY2t1cC5yZXN0b3JlIiwic2hpcHBpbmcucmVhZCIsImRvbWFpbnMud3JpdGUiLCJwYXltZW50cy53cml0ZSIsInByb2R1Y3RzLnJlYWQiLCJzdWJzY3JpYmVycy5yZWFkIiwib3JkZXJzLnJlYWQiLCJzaGlwcGluZy5jcmVhdGUiLCJuYXZpZ2F0aW9uLndyaXRlIiwibm90aWZpY2F0aW9ucy53cml0ZSIsImNvbGxlY3Rpb25zLnJlYWQiXSwibmJmIjoxNzU2MjY5Nzc4LCJleHAiOjE3NTY4NzQ1NzgsImlhdCI6MTc1NjI2OTc3OCwiaXNzIjoiV2Vic2l0ZUJ1aWxkZXJBUEkiLCJhdWQiOiJXZWJzaXRlQnVpbGRlckNsaWVudCJ9.abNMJ6HqbNs1Q5Q1IJUvjrESAjsYuqYeeiR7e0705dw"
+        },
+        "baseURL": "https://api.test1hotelwebsite.online/api",
+        "withCredentials": false,
+        "method": "get",
+        "url": "/whatsapp/conversations?",
+        "allowAbsoluteUrls": true
+      },
+      "code": "ERR_NETWORK"
+    }
+  ],
+  "stack": "Error\n    at console.error (https://websitebuilder-admin.vercel.app/_next/static/chunks/app/layout-c43f4578dc4271c9.js:1:4352)\n    at console.error (https://websitebuilder-admin.vercel.app/_next/static/chunks/app/layout-c43f4578dc4271c9.js:1:2989)\n    at https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:26314\n    at async https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:29782"
+}
+
+================================================================================
+[2025-08-27T04:56:55.209Z] [ERROR] [CONSOLE]
+URL: https://websitebuilder-admin.vercel.app/dashboard/whatsapp
+Message: Conversation polling error: {}
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Stack Trace:
+Error
+    at console.error (https://websitebuilder-admin.vercel.app/_next/static/chunks/app/layout-c43f4578dc4271c9.js:1:4352)
+    at console.error (https://websitebuilder-admin.vercel.app/_next/static/chunks/app/layout-c43f4578dc4271c9.js:1:2989)
+    at https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:56482
+    at async Promise.all (index 1)
+    at async https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:56627
+Additional Details: {
+  "args": [
+    "Conversation polling error:",
+    {}
+  ],
+  "stack": "Error\n    at console.error (https://websitebuilder-admin.vercel.app/_next/static/chunks/app/layout-c43f4578dc4271c9.js:1:4352)\n    at console.error (https://websitebuilder-admin.vercel.app/_next/static/chunks/app/layout-c43f4578dc4271c9.js:1:2989)\n    at https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:56482\n    at async Promise.all (index 1)\n    at async https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:56627"
+}
+
+================================================================================
+[2025-08-27T04:56:55.212Z] [ERROR] [CONSOLE]
+URL: https://websitebuilder-admin.vercel.app/dashboard/whatsapp
+Message: Polling error: {}
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Stack Trace:
+Error
+    at console.error (https://websitebuilder-admin.vercel.app/_next/static/chunks/app/layout-c43f4578dc4271c9.js:1:4352)
+    at console.error (https://websitebuilder-admin.vercel.app/_next/static/chunks/app/layout-c43f4578dc4271c9.js:1:2989)
+    at https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:55666
+    at async Promise.all (index 0)
+    at async https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:56627
+Additional Details: {
+  "args": [
+    "Polling error:",
+    {}
+  ],
+  "stack": "Error\n    at console.error (https://websitebuilder-admin.vercel.app/_next/static/chunks/app/layout-c43f4578dc4271c9.js:1:4352)\n    at console.error (https://websitebuilder-admin.vercel.app/_next/static/chunks/app/layout-c43f4578dc4271c9.js:1:2989)\n    at https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:55666\n    at async Promise.all (index 0)\n    at async https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:56627"
+}
+
+================================================================================
+[2025-08-27T05:01:23.620Z] [INFO] [CONSOLE]
+URL: https://websitebuilder-admin.vercel.app/dashboard/whatsapp
+Message: Frontend logger initialized
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+
+================================================================================
+[2025-08-27T05:04:59.216Z] [INFO] [CONSOLE]
+URL: https://websitebuilder-admin.vercel.app/dashboard/whatsapp-settings
+Message: Frontend logger initialized
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+
+================================================================================
+[2025-08-27T05:08:31.799Z] [INFO] [CONSOLE]
+URL: https://websitebuilder-admin.vercel.app/dashboard/whatsapp-settings
+Message: Frontend logger initialized
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+

@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "imageWithText": {
+      "name": "Image with Text",
+      "description": "Combine an image with text content",
+      "settings": {
+        "imagePosition": "Image Position",
+        "imagePositionLeft": "Left",
+        "imagePositionRight": "Right",
+        "imageAlt": "Alt Text",
+        "heading": "Heading",
+        "subheading": "Subheading",
+        "bodyText": "Body Text",
+        "buttonText": "Button Text",
+        "buttonUrl": "Button Link",
+        "buttonStyle": "Button Style",
+        "imageWidth": "Image Width",
+        "verticalAlignment": "Vertical Alignment",
+        "spacing": "Spacing"
+      }
+    },
+    "imageBanner": {
+      "name": "Image Banner",
+      "description": "Hero banner with overlay text",
+      "settings": {
+        "backgroundImage": "Background Image",
+        "overlayOpacity": "Overlay Opacity",
+        "textAlignment": "Text Alignment",
+        "height": "Height",
+        "parallax": "Parallax Effect"
+      }
+    },
+    "richText": {
+      "name": "Rich Text",
+      "description": "Full-featured text editor",
+      "settings": {
+        "content": "Content",
+        "columns": "Columns",
+        "textAlignment": "Alignment"
+      }
+    },
+    "gallery": {
+      "name": "Gallery",
+      "description": "Image or product gallery",
+      "settings": {
+        "images": "Images",
+        "columns": "Columns",
+        "spacing": "Spacing",
+        "aspectRatio": "Aspect Ratio",
+        "lightbox": "Lightbox",
+        "captions": "Captions"
+      }
+    },
+    "contactForm": {
+      "name": "Contact Form",
+      "description": "Customizable contact form",
+      "settings": {
+        "fields": "Fields",
+        "emailTo": "Send To",
+        "submitText": "Button Text",
+        "successMessage": "Success Message",
+        "requireCaptcha": "Require Captcha"
+      }
+    },
+    "newsletter": {
+      "name": "Newsletter",
+      "description": "Newsletter subscription",
+      "settings": {
+        "title": "Title",
+        "description": "Description",
+        "placeholder": "Placeholder",
+        "buttonText": "Button Text",
+        "layout": "Layout"
+      }
+    },
+    "featuredProduct": {
+      "name": "Featured Product",
+      "description": "Display a specific product",
+      "settings": {
+        "product": "Select Product",
+        "showPrice": "Show Price",
+        "showRating": "Show Rating",
+        "showDescription": "Show Description",
+        "layout": "Layout"
+      }
+    },
+    "featuredCollection": {
+      "name": "Featured Collection",
+      "description": "Display products from a collection",
+      "settings": {
+        "collection": "Select Collection",
+        "limit": "Product Limit",
+        "columns": "Columns",
+        "showViewAll": "Show View All"
+      }
+    },
+    "testimonials": {
+      "name": "Testimonials",
+      "description": "Customer testimonials",
+      "settings": {
+        "testimonials": "Testimonials",
+        "layout": "Layout",
+        "autoplay": "Autoplay",
+        "showAvatar": "Show Avatar",
+        "showRating": "Show Rating"
+      }
+    },
+    "faq": {
+      "name": "FAQ",
+      "description": "Frequently asked questions",
+      "settings": {
+        "faqs": "Questions",
+        "layout": "Layout",
+        "expandFirst": "Expand First",
+        "showSearch": "Show Search",
+        "headingSize": "Heading size",
+        "bodySize": "Body size",
+        "headingWeight": "Heading weight",
+        "bodyWeight": "Body weight",
+        "colorTabs": "Color tabs",
+        "colorBackground": "Color background",
+        "width": "Width",
+        "buttonLabel": "Button label",
+        "buttonLink": "Button link",
+        "buttonStyle": "Button style",
+        "collapserStyle": "Collapser style"
+      }
+    },
+    "videos": {
+      "name": "Videos",
+      "description": "Video section",
+      "settings": {
+        "videoUrl": "Video URL",
+        "videoType": "Video Type",
+        "autoplay": "Autoplay",
+        "controls": "Show Controls",
+        "poster": "Poster Image"
+      }
+    }
+  }
+}

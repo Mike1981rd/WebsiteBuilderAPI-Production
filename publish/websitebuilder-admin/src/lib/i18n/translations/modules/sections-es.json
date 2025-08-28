@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "imageWithText": {
+      "name": "Imagen con Texto",
+      "description": "Combina una imagen con contenido de texto",
+      "settings": {
+        "imagePosition": "Posición de Imagen",
+        "imagePositionLeft": "Izquierda",
+        "imagePositionRight": "Derecha",
+        "imageAlt": "Texto Alternativo",
+        "heading": "Título",
+        "subheading": "Subtítulo",
+        "bodyText": "Texto del Cuerpo",
+        "buttonText": "Texto del Botón",
+        "buttonUrl": "Enlace del Botón",
+        "buttonStyle": "Estilo del Botón",
+        "imageWidth": "Ancho de Imagen",
+        "verticalAlignment": "Alineación Vertical",
+        "spacing": "Espaciado"
+      }
+    },
+    "imageBanner": {
+      "name": "Banner de Imagen",
+      "description": "Banner hero con texto superpuesto",
+      "settings": {
+        "backgroundImage": "Imagen de Fondo",
+        "overlayOpacity": "Opacidad de Superposición",
+        "textAlignment": "Alineación del Texto",
+        "height": "Altura",
+        "parallax": "Efecto Parallax"
+      }
+    },
+    "richText": {
+      "name": "Texto Enriquecido",
+      "description": "Editor de texto con formato completo",
+      "settings": {
+        "content": "Contenido",
+        "columns": "Columnas",
+        "textAlignment": "Alineación"
+      }
+    },
+    "gallery": {
+      "name": "Galería",
+      "description": "Galería de imágenes o productos",
+      "settings": {
+        "images": "Imágenes",
+        "columns": "Columnas",
+        "spacing": "Espaciado",
+        "aspectRatio": "Proporción",
+        "lightbox": "Lightbox",
+        "captions": "Subtítulos"
+      }
+    },
+    "contactForm": {
+      "name": "Formulario de Contacto",
+      "description": "Formulario personalizable de contacto",
+      "settings": {
+        "fields": "Campos",
+        "emailTo": "Enviar a",
+        "submitText": "Texto del Botón",
+        "successMessage": "Mensaje de Éxito",
+        "requireCaptcha": "Requerir Captcha"
+      }
+    },
+    "newsletter": {
+      "name": "Boletín",
+      "description": "Suscripción a boletín informativo",
+      "settings": {
+        "title": "Título",
+        "description": "Descripción",
+        "placeholder": "Placeholder",
+        "buttonText": "Texto del Botón",
+        "layout": "Diseño"
+      }
+    },
+    "featuredProduct": {
+      "name": "Producto Destacado",
+      "description": "Muestra un producto específico",
+      "settings": {
+        "product": "Seleccionar Producto",
+        "showPrice": "Mostrar Precio",
+        "showRating": "Mostrar Calificación",
+        "showDescription": "Mostrar Descripción",
+        "layout": "Diseño"
+      }
+    },
+    "featuredCollection": {
+      "name": "Colección Destacada",
+      "description": "Muestra productos de una colección",
+      "settings": {
+        "collection": "Seleccionar Colección",
+        "limit": "Límite de Productos",
+        "columns": "Columnas",
+        "showViewAll": "Mostrar Ver Todo"
+      }
+    },
+    "testimonials": {
+      "name": "Testimonios",
+      "description": "Testimonios de clientes",
+      "settings": {
+        "testimonials": "Testimonios",
+        "layout": "Diseño",
+        "autoplay": "Reproducción Automática",
+        "showAvatar": "Mostrar Avatar",
+        "showRating": "Mostrar Calificación"
+      }
+    },
+    "faq": {
+      "name": "Preguntas Frecuentes",
+      "description": "Sección de preguntas y respuestas",
+      "settings": {
+        "faqs": "Preguntas",
+        "layout": "Diseño",
+        "expandFirst": "Expandir Primera",
+        "showSearch": "Mostrar Búsqueda",
+        "headingSize": "Tamaño del título",
+        "bodySize": "Tamaño del cuerpo",
+        "headingWeight": "Grosor del título",
+        "bodyWeight": "Grosor del cuerpo",
+        "colorTabs": "Color de pestañas",
+        "colorBackground": "Color de fondo",
+        "width": "Ancho",
+        "buttonLabel": "Texto del botón",
+        "buttonLink": "Enlace del botón",
+        "buttonStyle": "Estilo del botón",
+        "collapserStyle": "Estilo del colapsador"
+      }
+    },
+    "videos": {
+      "name": "Videos",
+      "description": "Sección de videos",
+      "settings": {
+        "videoUrl": "URL del Video",
+        "videoType": "Tipo de Video",
+        "autoplay": "Reproducción Automática",
+        "controls": "Mostrar Controles",
+        "poster": "Imagen de Póster"
+      }
+    }
+  }
+}

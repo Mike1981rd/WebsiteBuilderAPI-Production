@@ -1,0 +1,92 @@
+{
+  "editor": {
+    "title": "Website Editor",
+    "subtitle": "Design and customize your website",
+    "pageTypes": {
+      "home": "Home Page",
+      "product": "Product Page",
+      "cart": "Cart",
+      "checkout": "Checkout",
+      "collection": "Collection",
+      "allCollections": "All Collections",
+      "allProducts": "All Products",
+      "custom": "Rooms"
+    },
+    "actions": {
+      "save": "Save",
+      "saveDraft": "Save Draft",
+      "publish": "Publish",
+      "preview": "Preview",
+      "undo": "Undo",
+      "redo": "Redo",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "duplicate": "Duplicate",
+      "exit": "Exit Editor"
+    },
+    "panels": {
+      "sections": "Sections",
+      "pages": "Pages",
+      "globalSettings": "Global Settings",
+      "theme": "Theme",
+      "design": "Design",
+      "content": "Content"
+    },
+    "toolbar": {
+      "desktop": "Desktop",
+      "tablet": "Tablet",
+      "mobile": "Mobile",
+      "fullscreen": "Fullscreen",
+      "exitFullscreen": "Exit Fullscreen",
+      "gridView": "Grid View",
+      "listView": "List View"
+    },
+    "sidebar": {
+      "addSection": "Add Section",
+      "searchSections": "Search sections...",
+      "categories": {
+        "all": "All",
+        "basic": "Basic",
+        "content": "Content",
+        "media": "Media",
+        "commerce": "Commerce",
+        "contact": "Contact",
+        "social": "Social"
+      }
+    },
+    "messages": {
+      "unsavedChanges": "You have unsaved changes",
+      "saveConfirm": "Do you want to save changes before leaving?",
+      "publishSuccess": "Site published successfully",
+      "publishError": "Error publishing site",
+      "saveSuccess": "Changes saved",
+      "saveError": "Error saving changes",
+      "deleteConfirm": "Are you sure you want to delete this section?",
+      "loading": "Loading editor...",
+      "loadError": "Error loading editor",
+      "saving": "Saving..."
+    },
+    "settings": {
+      "pageSettings": "Page Settings",
+      "sectionSettings": "Section Settings",
+      "visibility": "Visibility",
+      "showOnDesktop": "Show on Desktop",
+      "showOnMobile": "Show on Mobile",
+      "advanced": "Advanced",
+      "customCSS": "Custom CSS",
+      "customClass": "CSS Class",
+      "animation": "Animation",
+      "padding": "Padding",
+      "margin": "Margin",
+      "background": "Background"
+    },
+    "dragDrop": {
+      "dragToReorder": "Drag to reorder",
+      "dropHere": "Drop here",
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "moveToTop": "Move to top",
+      "moveToBottom": "Move to bottom"
+    }
+  }
+}

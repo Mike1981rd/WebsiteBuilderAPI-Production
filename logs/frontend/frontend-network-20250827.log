@@ -1,0 +1,66 @@
+================================================================================
+[2025-08-27T04:56:54.276Z] [ERROR] [NETWORK]
+URL: https://websitebuilder-admin.vercel.app/dashboard/whatsapp
+Message: XMLHttpRequest GET https://api.test1hotelwebsite.online/api/whatsapp/conversations? failed
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Network Details:
+  Method: GET
+  URL: https://api.test1hotelwebsite.online/api/whatsapp/conversations?
+  Status:  
+Additional Details: {
+  "networkDetails": {
+    "method": "GET",
+    "url": "https://api.test1hotelwebsite.online/api/whatsapp/conversations?",
+    "requestBody": null
+  },
+  "duration": 169
+}
+
+================================================================================
+[2025-08-27T04:56:55.206Z] [ERROR] [NETWORK]
+URL: https://websitebuilder-admin.vercel.app/dashboard/whatsapp
+Message: GET https://api.test1hotelwebsite.online/api/whatsapp/conversations/updates?companyId=1&since=2025-08-27T04:44:59.682Z failed with network error
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Network Details:
+  Method: GET
+  URL: https://api.test1hotelwebsite.online/api/whatsapp/conversations/updates?companyId=1&since=2025-08-27T04:44:59.682Z
+  Status:  
+Stack Trace:
+TypeError: Failed to fetch
+    at window.fetch (https://websitebuilder-admin.vercel.app/_next/static/chunks/app/layout-c43f4578dc4271c9.js:1:4870)
+    at https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:55803
+    at https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:56650
+Additional Details: {
+  "error": "Failed to fetch",
+  "stack": "TypeError: Failed to fetch\n    at window.fetch (https://websitebuilder-admin.vercel.app/_next/static/chunks/app/layout-c43f4578dc4271c9.js:1:4870)\n    at https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:55803\n    at https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:56650",
+  "networkDetails": {
+    "method": "GET",
+    "url": "https://api.test1hotelwebsite.online/api/whatsapp/conversations/updates?companyId=1\u0026since=2025-08-27T04:44:59.682Z"
+  },
+  "duration": 92
+}
+
+================================================================================
+[2025-08-27T04:56:55.210Z] [ERROR] [NETWORK]
+URL: https://websitebuilder-admin.vercel.app/dashboard/whatsapp
+Message: GET https://api.test1hotelwebsite.online/api/whatsapp/messages/new?companyId=1&since=2025-08-27T04:44:59.682Z failed with network error
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Network Details:
+  Method: GET
+  URL: https://api.test1hotelwebsite.online/api/whatsapp/messages/new?companyId=1&since=2025-08-27T04:44:59.682Z
+  Status:  
+Stack Trace:
+TypeError: Failed to fetch
+    at window.fetch (https://websitebuilder-admin.vercel.app/_next/static/chunks/app/layout-c43f4578dc4271c9.js:1:4870)
+    at https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:55160
+    at https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:56646
+Additional Details: {
+  "error": "Failed to fetch",
+  "stack": "TypeError: Failed to fetch\n    at window.fetch (https://websitebuilder-admin.vercel.app/_next/static/chunks/app/layout-c43f4578dc4271c9.js:1:4870)\n    at https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:55160\n    at https://websitebuilder-admin.vercel.app/_next/static/chunks/7373-d09b7d2a23041983.js:1:56646",
+  "networkDetails": {
+    "method": "GET",
+    "url": "https://api.test1hotelwebsite.online/api/whatsapp/messages/new?companyId=1\u0026since=2025-08-27T04:44:59.682Z"
+  },
+  "duration": 100
+}
+
